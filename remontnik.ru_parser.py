@@ -132,13 +132,6 @@ def get_phone(links: str, url: str, num: int):
                         elif height > max_height:
                             max_height = height
 
-            # выводим результаты
-            print(f"Количество найденных фото: {len(photo_links)}")
-            print(f"Количество скачанных фото: {i + 1}")
-            print(f"Минимальная ширина: {min_width}")
-            print(f"Минимальная высота: {min_height}")
-            print(f"Максимальная ширина: {max_width}")
-            print(f"Максимальная высота: {max_height}")
             # Список всех файлов
             folder_path = 'Remontnik-foto'
 
